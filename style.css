@@ -1,3 +1,11 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  font-family: Gotham Rounded,sans-serif;
+  font-weight: normal;
+}
+
+
+
 *{margin: 0;padding:0}
 body{
 	font-family: sans-sarif,Arial !important
@@ -302,14 +310,13 @@ line-height: 150%;
 }
 #level-search{
     text-align: center;
-    padding: 10px;
     border:5px solid black;
 	outline:none;
 	background: #845;
 	font-size: 20px;
 	font-aline:center;
 	color:white;
-	width: 15%;
+	width: 25%;
 	height: 50px;
 	text-shadow: 2px 2px #000000;
 	border-radius: 50px;
