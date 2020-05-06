@@ -1,0 +1,361 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  font-family: Gotham Rounded,sans-serif;
+  font-weight: normal;
+}
+
+
+
+*{margin: 0;padding:0}
+body{
+	font-family: sans-sarif,Arial !important
+	-webkit-transition:all 0.5s ease;
+	transition: all o.5s ease;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+p{
+line-height: 150%;
+}
+.fix{
+	overflow: hidden;
+}
+#full-wrapper{	
+	width:100% 
+    
+}
+.full-wraper{
+	background: black;
+}
+#wrapper{
+	padding-top: 0px;
+	width: 960px;
+	display: block;
+	margin: 0px auto;
+	background: #845;
+}
+.hg{
+	min-height: 75px;
+}
+#wrapper h2{
+	font-size: 32px;
+	color: black;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+	font-family: georgia;
+
+}
+#wrapper p{
+	font-size: 18px;
+	margin-left: 15px;
+}
+.title-logo{
+	background: #845;
+	float: left;
+}
+.login{
+
+	background: #845;
+    float: right;
+    padding: 28px;
+    padding-top: 20px;
+}
+#login{
+	text-decoration: none;
+	background: #845;
+	width: 120px;
+	padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 12px;
+    padding-left: 12px;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold; 
+	border-radius: 30px;
+}
+#login:hover{
+	color: black;
+	background-color: #333;
+	transition: all 2s;
+}
+#signup{
+	text-decoration: none;
+	background: #845;
+	width: 120px;
+	padding: 6px;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold; 
+	border-radius: 30px;
+}
+#signup:hover{
+	color: black;
+	background-color: #333;
+	transition: all 2s;
+}
+.full-menu{
+	background:#845; 
+}
+.menu{
+	margin-top: 0px;
+	padding-bottom: 6px;
+	background:#845; 
+}
+#menu-bar{
+    margin-left: 185px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0;
+    list-style-type: none;
+    width: 650px;
+    min-height: 33px;
+	
+}
+#menu-bar li{
+	width: 150px;
+	min-height: 36px;
+	float: left; 
+    position: relative;
+    z-index: 9999;
+}
+#menu-bar li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px;
+	padding: 3px;
+    background-color: #845;
+    font-size: 18px;
+    display: block;
+     
+}
+#menu-bar li a:hover{
+	color: black;
+	background-color: #333;
+	transition: all 2s;
+	border-top: 3px solid black;
+    border-bottom: 5px solid green;  
+}
+#menu-bar li.active-home a{
+	border-bottom:3px solid red;
+}
+
+/* The Nivo Slider styles */
+
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { 
+	display:block;
+	overflow: hidden;
+ }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#850;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+/*here slidebar section  css  end......*/
+/*here Article  section  css  start......*/
+#article{
+	border: 1px solid black; 
+	background: rgba(255,255,255,0.8);
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+#article h1{
+    color: black;
+    padding-top: 50px;
+    padding-bottom:5px;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold; 
+
+}
+#article p{
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-family:georgia;
+}
+#article a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold; 
+}
+#a{
+	padding-left:440px;
+	text-decoration: none;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold;
+}
+#article h3{
+	color: black;
+	padding-top: 15px;
+    padding-bottom:5px;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold;
+}
+.searchbar{
+	padding-left:80px;
+	padding-right: none;
+
+}
+#level-search{
+    text-align: center;
+    border:5px solid black;
+	outline:none;
+	background: #845;
+	font-size: 20px;
+	font-aline:center;
+	color:white;
+	width: 25%;
+	height: 50px;
+	text-shadow: 2px 2px #000000;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	z-index: 9;
+}
+#homeinput-searchbar{
+	padding-left: 10px;
+	padding-right: 10px;
+	border:5px solid black;
+	outline:none;
+	background: #845;
+	font-size: 20px;
+	font-aline:center;
+	color:white;
+	width: 70%;
+	height: 50px;
+	text-shadow: 2px 2px #000000;
+	border-radius: 50px;
+	margin-top: 10px;
+	    margin-bottom: 20px;
+	z-index: 99;
+}
+/*here Article section  css  end......*/
+
+
+/*here footer  css start......*/
+#foot{
+	background: #845;
+	border: 2px solid #002;
+	padding-left: 10px;
+    
+}
+#foot p{
+   text-align:center;
+   color: #002;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-family: georgia;
+}
+/*here footer  css end......*/

@@ -1,0 +1,147 @@
+*{margin: 0;padding:0}
+#full-wrapper{	
+	width:100% 
+    
+}
+.full-wraper{
+	background: black;
+}
+#wrapper{
+	padding-top: 0px;
+	width: 960px;
+	display: block;
+	margin: 0px auto;
+	background: #845;
+}
+.wraper{
+	background: #845;
+}
+#wrapper h3{
+	font-size: 32px;
+	color: black;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+	font-family: georgia;
+}
+.title-login{
+	text-align: center;
+
+}
+#wrapper p{
+	color: black;
+	font-size: 18px;
+	padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+	font-style: bold;
+	font-family: georgia;
+}
+.title-logo{
+	background: #845;
+	float: left;
+}
+.login{
+
+	background: #845;
+	float: right;
+	padding: 20px;
+}
+#signup{
+
+	background: #845;
+	width: 120px;
+	padding-top: 3px;
+    padding-bottom: 3px;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	font-family:georgia;
+	font-style: bold; 
+	border-radius: 30px;
+}
+#signup:hover{
+	color: black;
+	background-color: #333;
+	transition: all 2s;
+}
+.form
+{
+	float: left;
+	align-self: center;
+	line-height: 4;
+	text-align: center;
+	/*float: left;
+	width: 50%;
+	height:500px;*/
+	font-family: Quicksand;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.input
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:2px solid #19bf7d;
+	outline:none;
+	background:none;
+	border-radius: 50px;
+	padding: 5px 9px;
+	font-size: 20px;
+	height:40px;
+	width: 250px;
+	max-width: 90%;
+}
+.button
+{
+	border:none;
+	outline:none;
+	background: #19bf7d;
+	font-size: 20px;
+	font-aline:center;
+	color:white;
+	width: 25%;
+	height: 50px;
+	text-shadow: 2px 2px #000000;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.signup-btn{
+	width: 33%;
+}
+
+.box
+{
+	background: rgba(255,255,255,0.8);
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px solid #845;
+	margin-bottom: 20px solid #845;
+	border-radius: 13%;
+}
+.social-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.social-container a
+{
+	border:1px solid black;
+	border-radius: 50%;
+	justify-content: center;
+	display: inline-flex;
+	margin: 0 7px;
+	height: 40px;
+	width: 40px;
+	align-items: center;
+}
+
+a:link,a:visited
+{
+	color: black;
+	text-decoration:none;
+}
+
